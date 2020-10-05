@@ -1,68 +1,52 @@
- // Classifier Variable
- let classifier;
- // Model URL
- let imageModelURL = 'data/';
+  // Global variable to store the classifier
+  let classifier;
 
- // Video
- let video;
- let flippedVideo;
- // To store the classification
- let label = "";
+  // Label
+  let label = 'listening...';
 
- // Load the model first
- function preload() {
-   classifier = ml5.imageClassifier(imageModelURL + 'model.json');
- }
+  // Teachable Machine model URL
+  // for audio absolute path is needed
+  const absolutePath = location.href.substr(0, location.href.lastIndexOf('/') + 1);
+  let soundModel = absolutePath + 'data/';
 
- function setup() {
-   createCanvas(640, 480);
-   // Create the video
-   video = createCapture(VIDEO);
-   video.size(640, 480);
-   video.hide();
-   // Start classifying
-   classifyVideo();
- }
+  function preload() {
 
- function draw() {
-   background(0);
-   // Draw the video
-   image(flippedVideo, 0, 0);
+    // Load the model
+    classifier = ml5.soundClassifier(soundModel + 'model.json');
+  }
 
-   // Draw the label
-   fill(255);
-   textSize(16);
-   textAlign(CENTER);
-   text(label, width / 2, height - 4);
- }
+  function setup() {
+    createCanvas(320, 240);
+    // Start classifying
+    // The sound model will continuously listen to the microphone
+    classifier.classify(gotResult);
+  }
 
- // Get a prediction for the current video frame
- function classifyVideo() {
+  function draw() {
+    background(0);
+    // Draw the label in the canvas
+    fill(255);
+    textSize(32);
+    textAlign(CENTER, CENTER);
+    text(label, width / 2, height / 2);
+  }
 
-   // flip video (= mirror)
-   flippedVideo = ml5.flipImage(video);
 
-   // classify video
-   classifier.classify(flippedVideo, gotResult);
+  // The model recognizing a sound will trigger this event
+  function gotResult(error, results) {
+    if (error) {
+      console.error(error);
+      return;
+    }
+    // The results are in an array ordered by confidence.
+    // console.log(results[0]);
+    label = results[0].label;
 
- }
+    // magic happens here
+    // check String of label and decide what to do
+    //if (label == "A") {
+    //  console.log("class A detected");
+    //}
 
- // When we get a result
- function gotResult(error, results) {
-   // If there is an error
-   if (error) {
-     console.error(error);
-     return;
-   }
-   // The results are in an array ordered by confidence.
-   label = results[0].label;
 
-   // magic happens here
-   // check String of label and decide what to do
-   //if (label == "A") {
-   //  console.log("class A detected");
-   //}
-
-   // Classifiy again!
-   classifyVideo();
- }
+  }
