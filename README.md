@@ -31,6 +31,7 @@ Tutorial on Extensions: https://www.youtube.com/watch?v=PmdbndOoKq4
 
 ### ML5.js
 * ML5.js, https://ml5js.org/
+* ML5.js Reference, https://learn.ml5js.org/#/reference/index
 * ML5.js Community, https://ml5js.org/community 
 * ML5.js Examples (Andreas Refsgaard), https://ml5-fellowship-2020.github.io/examples/
 
