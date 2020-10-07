@@ -5,7 +5,7 @@
   let label = 'listening...';
 
   // Teachable Machine model URL
-  // for audio absolute path is needed
+  // for sound model absolute path is needed!
   const absolutePath = location.href.substr(0, location.href.lastIndexOf('/') + 1);
   let soundModel = absolutePath + 'data/';
 
@@ -42,7 +42,8 @@
     // console.log(results[0]);
     label = results[0].label;
 
-    // magic happens here
+    // magic happens here!!!
+
     // check String of label and decide what to do
     //if (label == "A") {
     //  console.log("class A detected");

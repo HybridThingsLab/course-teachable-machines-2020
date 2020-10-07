@@ -57,7 +57,8 @@
    // The results are in an array ordered by confidence.
    label = results[0].label;
 
-   // magic happens here
+   // magic happens here!!!
+
    // check String of label and decide what to do
    //if (label == "A") {
    //  console.log("class A detected");
