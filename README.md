@@ -50,8 +50,8 @@ How to set Chrome as your default browser for Live Server in Visual Studio Code:
 ### Code Repository
 There will be a bunch of examples coming the next weeks. There is an update of this repository from time to time to correct bugs or add new examples. There are two ways to get all these files.
 
-1. __PREFERRED__: In Visual Studio Code click the "Files" Icon, then "Clone Repository", paste the Repository URL https://github.com/HybridThingsLab/course-interaction-design, hit Enter, create a folder for our files and select it as download location.
-2. Fallback: Download the repository from the GitHub Website (https://github.com/HybridThingsLab/course-interaction-design/archive/master.zip). Use button "Clone or Download" on the top right side of the page, download the ZIP and extract it.
+1. __PREFERRED__: In Visual Studio Code click the "Files" Icon, then "Clone Repository", paste the Repository URL https://github.com/HybridThingsLab/course-teachable-machines, hit Enter, create a folder for our files and select it as download location.
+2. Fallback: Download the repository from the GitHub Website (https://github.com/HybridThingsLab/course-teachable-machines/archive/master.zip). Use button "Clone or Download" on the top right side of the page, download the ZIP and extract it.
 
 Whenever there is an update to the repository, you can pull those changes to your local folder structure:
 
