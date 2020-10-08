@@ -29,6 +29,21 @@
     textSize(32);
     textAlign(CENTER, CENTER);
     text(label, width / 2, height / 2);
+
+    // magic happens here!!!
+
+    if (label == "A") { // should be same name of label as in google teachable machine
+      fill(255, 0, 0);
+    }
+    if (label == "B") { // should be same name of label as in google teachable machine
+      fill(0, 255, 0);
+    }
+    // further labels possible... 
+
+    noStroke();
+    rect(0, 0, width / 2, height / 2);
+
+
   }
 
 
@@ -41,13 +56,6 @@
     // The results are in an array ordered by confidence.
     // console.log(results[0]);
     label = results[0].label;
-
-    // magic happens here!!!
-
-    // check String of label and decide what to do
-    //if (label == "A") {
-    //  console.log("class A detected");
-    //}
 
 
   }
