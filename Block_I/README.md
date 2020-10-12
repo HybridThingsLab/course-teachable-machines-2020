@@ -16,5 +16,10 @@ Image Classification: https://www.youtube.com/watch?v=kwcillcWOg0
 
 Sound Classification: https://www.youtube.com/watch?v=TOrVsLklltM
 
+## face-api.js
+https://github.com/justadudewhohacks/face-api.js/
+### Discussion
+https://www.theverge.com/2019/7/25/8929793/emotion-recognition-analysis-ai-machine-learning-facial-expression-review
+
 
 
