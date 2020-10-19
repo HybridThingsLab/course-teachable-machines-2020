@@ -5,7 +5,7 @@ Prof. Andreas Muxel, University of Applied Sciences Augsburg, Faculty of Design,
 
 * [Block I (EXPLORE)](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_I)
 
-* Block II (UNDERSTAND)
+* [Block II (UNDERSTAND)](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_II)
 
 * Block III (PHYSICAL)
 
