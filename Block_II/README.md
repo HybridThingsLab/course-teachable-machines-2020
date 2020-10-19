@@ -7,17 +7,19 @@ https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-wit
 
 # ml5.js handpose
 ToDo Screenshot
-official ml5.js release coming soon, already have a look here https://github.com/ml5js/ml5-library/tree/development/examples/p5js/Handpose
+official ml5.js release coming soon, already have a look here:
+* https://github.com/ml5js/ml5-library/tree/development/examples/p5js/Handpose
 ## insights
-https://google.github.io/mediapipe/solutions/hands.html
-https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html
+* https://google.github.io/mediapipe/solutions/hands.html
+* https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html
 
 # ml5.js facemesh
 ToDo Screenshot
-official ml5.js release coming soon, already have a look here https://github.com/ml5js/ml5-library/tree/development/examples/p5js/Facemesh
+official ml5.js release coming soon, already have a look here:
+* https://github.com/ml5js/ml5-library/tree/development/examples/p5js/Facemesh
 ## insights
-https://google.github.io/mediapipe/solutions/face_mesh.html
-https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html 
+* https://google.github.io/mediapipe/solutions/face_mesh.html
+* https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html 
 
 # ml5.js KNN Classifier
 https://learn.ml5js.org/#/reference/knn-classifier
