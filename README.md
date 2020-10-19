@@ -32,6 +32,7 @@ Tutorial on Extensions: https://www.youtube.com/watch?v=PmdbndOoKq4
 ### ML5.js
 * ML5.js, https://ml5js.org/
 * ML5.js Reference, https://learn.ml5js.org/#/reference/index
+* ML5.js tutorials via Coding Train, https://thecodingtrain.com/learning/ml5/
 * ML5.js Community, https://ml5js.org/community 
 * ML5.js Examples (Andreas Refsgaard), https://ml5-fellowship-2020.github.io/examples/
 
@@ -61,7 +62,4 @@ Whenever there is an update to the repository, you can pull those changes to you
 
 ### Make it your code!
 Please create your own code folder somewhere outside our code folder and copy one of the example folders over. You should not chage anythinig inside our code structure because it may interfere with future updates that we may do on the code if you use GIT (Collisions)
-
-## Recommended tutorials
-https://thecodingtrain.com/learning/ml5/
 
