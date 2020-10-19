@@ -1,0 +1,48 @@
+/* style.css */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#canvas {
+  margin: 32px;
+}
+
+#gui{
+  margin-left: 32px;
+}
+
+.button {
+  margin-top: 8px;
+  margin-right: 8px;
+  border-radius:4px;
+	cursor:pointer;
+	padding:4px 8px;
+  background-color:#fff;
+  color: #000;
+  border-width: 1px;
+}
+.button:hover {
+  background-color:#000;
+  color: #fff;
+}
+#predict-button {
+  margin-left: 8px;
+  background-color:#00ff00;
+  color: #000;
+}
+#predict-button:hover {
+  background-color:#000;
+  color: #fff;
+}
+
+.text-gui {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#output {
+  margin-top: 8px;
+}
