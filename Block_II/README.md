@@ -8,6 +8,7 @@ reference:
 * https://learn.ml5js.org/#/reference/posenet
 
 insights:
+* https://github.com/tensorflow/tfjs-models/tree/master/posenet
 * https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5
 
 # ml5.js handpose
