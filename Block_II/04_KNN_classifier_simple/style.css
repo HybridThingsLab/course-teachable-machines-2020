@@ -37,10 +37,16 @@ body {
   color: #fff;
 }
 
-.text-gui {
-  margin-left: 16px;
-  margin-right: 16px;
+.select {
+  margin-top: 8px;
+  margin-right: 8px;
+  border-radius:4px;
+	padding:4px 8px;
+  background-color:#fff;
+  color: #000;
+  border-width: 1px;
 }
+
 
 #text-help {
   font-size: 18px;

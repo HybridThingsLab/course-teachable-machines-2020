@@ -6,7 +6,8 @@ let labels = [
   "B",
   "C"
 ];
-let activeLabel = "A";
+// set first label as active
+let activeLabel = labels[0];
 
 // examples mouse position
 let examples_mousePosition = [];
@@ -18,6 +19,7 @@ let inputData = []; // get values in 'gotResultModel'
 let predictions = [];
 let mostPredictedClass = "";
 
+// setup
 function setup() {
 
   // canvas
@@ -34,6 +36,7 @@ function setup() {
 
 }
 
+// draw
 function draw() {
 
   // clear background
@@ -78,8 +81,6 @@ function draw() {
     text(mostPredictedClass, width / 2, height / 2);
 
   }
-
-
 }
 
 // set active class
@@ -104,11 +105,9 @@ function mousePressed() {
   }
 }
 
-
 /////////////////////////////////////
 // KNN CLASSIFICTATION STARTS HERE //
 /////////////////////////////////////
-
 
 // Add the current frame from the video to the classifier
 function addExample(label) {
@@ -135,7 +134,6 @@ function classify() {
   }
 
 }
-
 
 // Show the results
 function gotResults(err, result) {
@@ -165,7 +163,6 @@ function gotResults(err, result) {
 
 }
 
-
 /////////////////
 // generate gui //
 //////////////////
@@ -179,6 +176,19 @@ function generateGui(lc) {
   text_help.id("text-help");
   text_help.html('select active class and click canvas to add examples... then start prediction');
 
+  // select active class
+  const selectActiveClass = createSelect().parent(gui_main);
+
+  for (let i = 0; i < lc.length; i++) {
+    selectActiveClass.option(lc[i]);
+  }
+  selectActiveClass.selected(activeLabel);
+  selectActiveClass.class("select");
+  selectActiveClass.changed(function () {
+    // setActiveClass
+    setActiveClass(selectActiveClass.value());
+  });
+
   // predict
   const predictButton = createButton("Start Prediction").parent(gui_main);
   predictButton.class("button");
@@ -186,23 +196,4 @@ function generateGui(lc) {
   predictButton.mousePressed(function () {
     classify();
   });
-
-  // gui classes
-
-  for (let i = 0; i < lc.length; i++) {
-
-    // container buttons class
-    const gui_class = createDiv().parent('gui');
-
-    // add example button
-    const add_example_button = createButton(lc[i]).parent(gui_class);
-    add_example_button.html("Set " + lc[i] + " to active class");
-    add_example_button.class("button");
-    add_example_button.mousePressed(function () {
-      // setActiveClass
-      setActiveClass(lc[i]);
-    });
-
-  }
-
 }
