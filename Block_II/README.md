@@ -15,7 +15,7 @@ live demo [handpose](https://hybridthingslab.github.io/course-teachable-machines
 
 ![handpose](docs/handpose.jpg)
 
-offical ml5.js release coming soon, already have a look here:
+official ml5.js release hopefully coming soon, already have a look here:
 * https://github.com/ml5js/ml5-library/tree/development/examples/p5js/Handpose
 
 insights:
@@ -27,7 +27,7 @@ live demo [facemesh](https://hybridthingslab.github.io/course-teachable-machines
 
 ![facemesh](docs/facemesh.jpg)
 
-offical ml5.js release coming soon, already have a look here:
+official ml5.js release hopefully coming soon, already have a look here:
 * https://github.com/ml5js/ml5-library/tree/development/examples/p5js/Facemesh
 
 insights:
