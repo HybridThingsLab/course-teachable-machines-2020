@@ -1,12 +1,15 @@
 # ml5.js poseNet
 live demo:
 
-![poseNet](docs/poseNet.jpg)</br>
-* [poseNet](https://hybridthingslab.github.io/course-teachable-machines/Block_II/01_poseNet/)
+[poseNet](https://hybridthingslab.github.io/course-teachable-machines/Block_II/01_poseNet/)
+
+![poseNet](docs/poseNet.jpg)
+
 
 reference:
 * https://learn.ml5js.org/#/reference/posenet
-### insights
+
+insights:
 * https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5
 
 # ml5.js handpose
