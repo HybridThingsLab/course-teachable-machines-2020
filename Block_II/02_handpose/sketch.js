@@ -74,6 +74,10 @@ function gotResultsModel(result) {
 function drawKeypoints() {
   for (let i = 0; i < poses.length; i++) {
     const pose = poses[i];
+
+    // have a detailed look in your console
+    // console.log(pose); 
+
     for (let j = 0; j < pose.landmarks.length; j += 1) {
       const keypoint = pose.landmarks[j];
       fill(0, 255, 0);

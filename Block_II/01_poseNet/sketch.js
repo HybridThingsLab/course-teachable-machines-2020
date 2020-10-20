@@ -56,6 +56,9 @@ function modelReady() {
 // results of current model (p.ex. PoseNet, handpose, facemesh...)
 function gotResultsModel(result) {
   poses = result;
+
+  // have a detailed look in your console
+  // console.log(result)
 }
 
 ///////////////////////////

@@ -66,7 +66,7 @@ reference:
 * https://learn.ml5js.org/#/reference/knn-classifier
 ## tutorials via Coding Train
 * Part 1: https://www.youtube.com/watch?v=KTNqXwkLuM4&feature=emb_title
-* Part 2:https://www.youtube.com/watch?v=Mwo5_bUVhlA&t=1030s
+* Part 2: https://www.youtube.com/watch?v=Mwo5_bUVhlA&t=1030s
 * Part 3: https://www.youtube.com/watch?v=JWsKay58Z2g
 ## further examples
 * handpose: https://editor.p5js.org/AndreasRef/sketches/vyiGyVon9

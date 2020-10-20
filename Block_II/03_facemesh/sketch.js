@@ -60,7 +60,11 @@ function gotResultsModel(result) {
   // just update optimized input data if new input data available
   if (result.length > 0) {
     mesh = result;
-    keypoints = result[0].scaledMesh;
+
+    // have a detailed look in your console
+    //console.log(result[0]);
+
+    keypoints = result[0].scaledMesh; // just first face
     // keypoints = result[0].mesh; // if x,y,z position of face is not important use this instead
     // just use x and y coordinate
     inputData = keypoints.map(p => [p[0], p[1]]);
