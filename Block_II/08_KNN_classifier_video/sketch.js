@@ -33,8 +33,7 @@ function setup() {
   video.size(width, height);
   video.hide();
 
-  // init feature extractor
-  // flip horizontal und just pose of one person
+  // init feature extractor, see also https://learn.ml5js.org/#/reference/feature-extractor
   featureExtractor = ml5.featureExtractor('MobileNet', modelReady);
   select('#output').html('... loading model');
 
