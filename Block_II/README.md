@@ -36,6 +36,8 @@ insights:
 * https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html 
 
 # ml5.js KNN Classifier
+Nice explanation via Coding Train: 
+* https://youtu.be/Mwo5_bUVhlA?t=170 
 
 ## KNN Classifier simple (position mouse x, y)
 live demo [KNN_classifier_simple](https://hybridthingslab.github.io/course-teachable-machines/Block_II/04_KNN_classifier_simple/)
