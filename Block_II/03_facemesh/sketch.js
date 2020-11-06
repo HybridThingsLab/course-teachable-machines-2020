@@ -20,8 +20,10 @@ function setup() {
   video.hide();
 
   // init facemesh, see also https://google.github.io/mediapipe/solutions/face_mesh.html
-  // flip horizontally not working yet, quick&dirty workaround see modelReady
-  facemesh = ml5.facemesh(video, modelReady);
+  // flip horizontal still not working
+  facemesh = ml5.facemesh(video, {
+    flipHorizontal: false
+  }, modelReady);
   select('#output').html('... loading model');
 
   // detect if new facemesh detected and call 'gotResultModel'
@@ -65,7 +67,8 @@ function gotResultsModel(result) {
     //console.log(result[0]);
 
     keypoints = result[0].scaledMesh; // just first face
-    // keypoints = result[0].mesh; // if x,y,z position of face is not important use this instead
+    //keypoints = result[0].mesh; // if x,y,z position of face is not important use this instead
+
     // just use x and y coordinate
     inputData = keypoints.map(p => [p[0], p[1]]);
   }

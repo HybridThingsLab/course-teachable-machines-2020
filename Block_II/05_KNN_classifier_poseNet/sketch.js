@@ -104,7 +104,7 @@ function gotResultsModel(result) {
   // just update input data if new input data available
   if (poses.length > 0) {
     inputData = poses[0].pose.keypoints.map(p => [p.score, p.position.x, p.position.y]);
-    // console.log(inputData);
+    //console.log(inputData);
   }
 }
 

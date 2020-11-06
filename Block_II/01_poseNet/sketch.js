@@ -58,7 +58,7 @@ function gotResultsModel(result) {
   poses = result;
 
   // have a detailed look in your console
-  // console.log(result)
+  //console.log(result)
 }
 
 ///////////////////////////

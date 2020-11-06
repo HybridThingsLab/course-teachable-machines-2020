@@ -146,6 +146,7 @@ function gotResults(err, result) {
   if (result.confidencesByLabel) {
 
     const confidences = result.confidencesByLabel; // array object
+    //console.log(confidences);
 
     // get key/label highest values and its value
     let keyHighestValue = Object.keys(confidences).reduce((a, b) => confidences[a] > confidences[b] ? a : b);
