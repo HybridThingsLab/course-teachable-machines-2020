@@ -16,8 +16,8 @@ live demo [handpose](https://hybridthingslab.github.io/course-teachable-machines
 
 ![handpose](docs/handpose.jpg)
 
-official ml5.js release hopefully coming soon, already have a look here:
-* https://github.com/ml5js/ml5-library/tree/development/examples/p5js/Handpose
+reference:
+* https://learn.ml5js.org/#/reference/handpose
 
 insights:
 * https://google.github.io/mediapipe/solutions/hands.html
@@ -28,8 +28,8 @@ live demo [facemesh](https://hybridthingslab.github.io/course-teachable-machines
 
 ![facemesh](docs/facemesh.jpg)
 
-official ml5.js release hopefully coming soon, already have a look here:
-* https://github.com/ml5js/ml5-library/tree/development/examples/p5js/Facemesh
+reference:
+* https://learn.ml5js.org/#/reference/facemesh
 
 insights:
 * https://google.github.io/mediapipe/solutions/face_mesh.html
