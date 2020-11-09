@@ -1,4 +1,4 @@
-// KNN Classification on Webcam Images with poseNet
+// simple KNN classifier with mouse position
 
 // labels (feel free to add more)
 let labels = [
@@ -109,7 +109,7 @@ function mousePressed() {
 // KNN CLASSIFICTATION STARTS HERE //
 /////////////////////////////////////
 
-// Add the current frame from the video to the classifier
+// Add the current input data to the classifier
 function addExample(label) {
 
   // Add an example (= input data) with a label to the classifier

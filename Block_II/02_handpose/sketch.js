@@ -1,6 +1,5 @@
 // webcam
 let video;
-let flippedVideo;
 
 // handpose
 let handpose;
@@ -38,11 +37,12 @@ function draw() {
   // clear background
   background(0);
 
-  // flip video (= mirror)
-  flippedVideo = ml5.flipImage(video);
-
-  // show video
-  image(flippedVideo, 0, 0, width, height);
+  // show video (flipped)
+  push();
+  translate(width, 0);
+  scale(-1, 1);
+  image(video, 0, 0, width, height);
+  pop();
 
   // show results of handpose
   drawKeypoints();

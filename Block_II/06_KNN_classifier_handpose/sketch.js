@@ -9,7 +9,6 @@ let labels = [
 
 // webcam
 let video;
-let flippedVideo;
 
 // handpose
 let handpose;
@@ -56,11 +55,15 @@ function draw() {
   // clear background
   background(0);
 
-  // flip video (= mirror)
-  flippedVideo = ml5.flipImage(video);
+  // flip video (= mirror) >>> memory leak issus, do not use for now
+  //let flippedVideo = ml5.flipImage(video);
 
-  // show video
-  image(flippedVideo, 0, 0, width, height);
+  // show video (flipped)
+  push();
+  translate(width, 0);
+  scale(-1, 1);
+  image(video, 0, 0, width, height);
+  pop();
 
   // show results of handpose
   drawKeypoints();
@@ -161,7 +164,7 @@ function drawSkeleton() {
 /////////////////////////////////////
 
 
-// Add the current frame from the video to the classifier
+// Add the current input data to the classifier
 function addExample(label) {
 
   // Add an example with a label to the classifier
@@ -174,7 +177,7 @@ function addExample(label) {
 
 }
 
-// Predict the current frame.
+// Predict the current handpose
 function classify() {
 
   // if there are no labels through error and return
