@@ -9,7 +9,6 @@ let labels = [
 
 // webcam
 let video;
-let flippedVideo;
 
 // poseNet
 let poseNet;

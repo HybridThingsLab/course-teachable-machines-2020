@@ -1,7 +1,7 @@
 # ml5.js poseNet
 live demo [poseNet](https://hybridthingslab.github.io/course-teachable-machines/Block_II/01_poseNet/)
 
-![poseNet](docs/poseNet.jpg)
+![poseNet](docs/poseNet_small.jpg)
 
 
 reference:
