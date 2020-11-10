@@ -1,7 +1,7 @@
 # TEACHABLE MACHINES
 course interaction design IA3 winter-term 2020/2021 
 
-[Andreas Muxel](https://www.andreasmuxel.com/teaching/), University of Applied Sciences Augsburg, Faculty of Design, https://www.hs-augsburg.de/Gestaltung.html
+[Andreas Muxel](https://www.andreasmuxel.com/teaching/), University of Applied Sciences Augsburg, [Faculty of Design](https://www.hs-augsburg.de/Gestaltung.html)
 
 * [Block I (EXPLORE)](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_I)
 
