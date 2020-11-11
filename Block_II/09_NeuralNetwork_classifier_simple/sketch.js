@@ -23,7 +23,7 @@ const optionsNeuralNetwork = {
 }
 
 const optionsTraining = {
-  batchSize: 24,
+  batchSize: 10,
   epochs: 100 // try different values here > goal: as little loss as possible at the end
 }
 
