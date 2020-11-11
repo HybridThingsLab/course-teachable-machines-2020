@@ -36,7 +36,7 @@ insights:
 * https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html 
 
 # ml5.js KNN Classifier
-Nice explanation via Coding Train: 
+nice explanation via Coding Train: 
 * https://youtu.be/Mwo5_bUVhlA?t=170 
 
 ## KNN Classifier simple (position mouse x, y)
@@ -74,8 +74,9 @@ reference:
 * handpose: https://editor.p5js.org/AndreasRef/sketches/vyiGyVon9
 
 # ml5.js Neural Network
-Nice introduction via Coding Train: 
+nice introduction via Coding Train: 
 * https://www.youtube.com/watch?v=8HEgeAbYphA
+
 reference:
 * https://learn.ml5js.org/#/reference/neural-network
 
