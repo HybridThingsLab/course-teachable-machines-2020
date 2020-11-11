@@ -121,4 +121,3 @@ further tutorial via Coding train:
 live demo [NeuralNetwork_classifier_poseNet](https://hybridthingslab.github.io/course-teachable-machines/Block_II/16_NeuralNetwork_regression_handpose/)
 
 ![NN_regression_handpose](docs/NN_regression_handpose.jpg)
-
