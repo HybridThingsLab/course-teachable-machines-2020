@@ -72,3 +72,52 @@ reference:
 * Part 3: https://www.youtube.com/watch?v=JWsKay58Z2g
 ## further examples
 * handpose: https://editor.p5js.org/AndreasRef/sketches/vyiGyVon9
+
+# ml5.js Neural Network
+Nice introduction via Coding Train: 
+* https://www.youtube.com/watch?v=8HEgeAbYphA
+reference:
+* https://learn.ml5js.org/#/reference/neural-network
+
+
+## Neural Network Classifier simple (position mouse x, y)
+live demo [NeuralNetwork_classifier](https://hybridthingslab.github.io/course-teachable-machines/Block_II/10_NeuralNetwork_classifier_loadSave_simple/)
+
+![NN_classifier_simple](docs/NN_classifier_simple.jpg)
+
+further tutorials via Coding train:
+* https://thecodingtrain.com/learning/ml5/6.1-train-your-own.html
+* https://thecodingtrain.com/learning/ml5/6.2-save-data.html
+* https://thecodingtrain.com/learning/ml5/6.3-save-model.html
+
+## Neural Network Classifier poseNet
+live demo [NeuralNetwork_classifier_poseNet](https://hybridthingslab.github.io/course-teachable-machines/Block_II/11_NeuralNetwork_classifier_poseNet/)
+
+![NN_classifier_poseNet](docs/NN_classifier_poseNet.jpg)
+
+## Neural Network Classifier handpose
+live demo [NeuralNetwork_classifier_handpose](https://hybridthingslab.github.io/course-teachable-machines/Block_II/12_NeuralNetwork_classifier_handpose/)
+
+![NN_classifier_handpose](docs/NN_classifier_handpose.jpg)
+
+## Neural Network Regression simple (position mouse x, y, 3 sliders)
+live demo [NeuralNetwork_classifier](https://hybridthingslab.github.io/course-teachable-machines/Block_II/14_NeuralNetwork_regression_simple/)
+
+![NN_regression_simple](docs/NN_regression_simple.jpg)
+
+further tutorial via Coding train:
+* https://thecodingtrain.com/learning/ml5/6.4-regression.html
+
+## Neural Network Regression poseNet
+live demo [NeuralNetwork_classifier_poseNet](https://hybridthingslab.github.io/course-teachable-machines/Block_II/15_NeuralNetwork_regression_poseNet/)
+
+![NN_regression_poseNet](docs/NN_regression_poseNet.jpg)
+
+further tutorial via Coding train:
+* https://thecodingtrain.com/learning/ml5/7.3-pose-regression.html
+
+## Neural Network Regression handpose
+live demo [NeuralNetwork_classifier_poseNet](https://hybridthingslab.github.io/course-teachable-machines/Block_II/16_NeuralNetwork_regression_handpose/)
+
+![NN_regression_handpose](docs/NN_regression_handpose.jpg)
+

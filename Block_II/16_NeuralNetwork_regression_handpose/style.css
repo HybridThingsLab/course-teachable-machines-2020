@@ -1,0 +1,89 @@
+/* style.css */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Arial";
+  font-size: 16px;
+}
+
+#canvas {
+  margin: 32px;
+}
+
+#gui{
+  margin-left: 32px;
+}
+
+.gui-container {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.button {
+  margin-top: 8px;
+  margin-right: 8px;
+  border-radius:4px;
+	cursor:pointer;
+	padding:4px 8px;
+  background-color:#fff;
+  color: #000;
+  border-width: 1px;
+}
+.button:hover {
+  background-color:#000;
+  color: #fff;
+}
+.highlight-button {
+  background-color:#00ff00;
+  color: #000;
+}
+.highlight-button:hover {
+  background-color:#000;
+  color: #fff;
+}
+
+.text-gui {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 320px;
+  background: #e3e3e3;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #00ff08;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: #00ff11;
+  cursor: pointer;
+}
+
+.label {
+  margin-top: 16px;
+  margin-left: 8px;
+}
+
+#output {
+  margin-top: 24px;
+  font-size: 14px;
+}
+
+#text-help {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
