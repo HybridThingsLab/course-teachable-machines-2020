@@ -17,7 +17,7 @@ let poses = [];
 // custom neural network
 let brain; // neural network is the brain
 const optionsNeuralNetwork = {
-  inputs: 42, // landmarks handpose
+  inputs: 42, // landmarks handpose, keypoints x,y
   outputs: labels.length, // number of labels declared
   debug: true, // shows visualization during training
   learningReate: 0.2, // try different values here > goal: as little loss as possible at the end
@@ -144,7 +144,7 @@ function gotResultsModel(result) {
       }
     }
 
-    // console.log(optimizedInputData);
+    //console.log(optimizedInputData);
   }
 }
 

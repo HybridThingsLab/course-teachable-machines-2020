@@ -31,7 +31,7 @@ const customDataFile = "data/data.json";
 
 const optionsTraining = {
   batchSize: 10, // try different values here > goal: as little loss as possible at the end
-  epochs: 100 // try different values here > goal: as little loss as possible at the end
+  epochs: 60 // try different values here > goal: as little loss as possible at the end
 }
 
 let trainingFinished = false;

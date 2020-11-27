@@ -157,7 +157,7 @@ function gotResultsModel(result) {
       }
     }
 
-    console.log(optimizedInputData.length);
+    // console.log(optimizedInputData);
     // console.log(optimizedInputData);
   }
 

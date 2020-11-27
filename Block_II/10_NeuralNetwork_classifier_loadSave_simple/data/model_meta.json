@@ -1,1 +1,48 @@
-{"inputUnits":[2],"outputUnits":3,"inputs":{"0":{"dtype":"number","min":27,"max":509},"1":{"dtype":"number","min":71,"max":564}},"outputs":{"0":{"dtype":"string","min":0,"max":1,"uniqueValues":["A","B","C"],"legend":{"A":[1,0,0],"B":[0,1,0],"C":[0,0,1]}}},"isNormalized":true}
+{
+    "inputUnits": [
+        2
+    ],
+    "outputUnits": 3,
+    "inputs": {
+        "0": {
+            "dtype": "number",
+            "min": 43,
+            "max": 543
+        },
+        "1": {
+            "dtype": "number",
+            "min": 62,
+            "max": 413
+        }
+    },
+    "outputs": {
+        "0": {
+            "dtype": "string",
+            "min": 0,
+            "max": 1,
+            "uniqueValues": [
+                "A",
+                "B",
+                "C"
+            ],
+            "legend": {
+                "A": [
+                    1,
+                    0,
+                    0
+                ],
+                "B": [
+                    0,
+                    1,
+                    0
+                ],
+                "C": [
+                    0,
+                    0,
+                    1
+                ]
+            }
+        }
+    },
+    "isNormalized": true
+}
