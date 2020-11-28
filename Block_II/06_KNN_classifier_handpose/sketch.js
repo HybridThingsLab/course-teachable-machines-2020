@@ -35,11 +35,18 @@ function setup() {
   video.size(width, height);
   video.hide();
 
-  // init handpose 
-  // flip camera horizontally
-  handpose = ml5.handpose(video, {
-    flipHorizontal: true
-  }, modelReady);
+  // init handpose, see also https://google.github.io/mediapipe/solutions/hands.html
+
+  // options
+  const options = {
+    flipHorizontal: true, // boolean value for if the video should be flipped, defaults to false
+    maxContinuousChecks: Infinity, // How many frames to go without running the bounding box detector. Defaults to infinity, but try a lower value if the detector is consistently producing bad predictions.
+    detectionConfidence: 0.8, // Threshold for discarding a prediction. Defaults to 0.8.
+    scoreThreshold: 0.75, // A threshold for removing multiple (likely duplicate) detections based on a "non-maximum suppression" algorithm. Defaults to 0.75
+    iouThreshold: 0.3, // A float representing the threshold for deciding whether boxes overlap too much in non-maximum suppression. Must be between [0, 1]. Defaults to 0.3.
+  }
+  handpose = ml5.handpose(video, options, modelReady);
+
   select('#output').html('... loading model');
 
   // detect if new pose detected and call 'gotResultModel'
