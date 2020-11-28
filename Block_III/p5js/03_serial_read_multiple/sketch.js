@@ -25,8 +25,8 @@ function draw() {
   // background
   background(0);
 
-  // just if ready
-  if (serialController.read() != undefined) {
+  // just if serial controller ready an there is data
+  if (serialController.read() && serialController.hasData()) {
     // split string into array
     receivedValues = split(serialController.read(), " ");
     // show values

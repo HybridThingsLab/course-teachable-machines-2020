@@ -27,7 +27,10 @@ function draw() {
   // read single value from serial port
   fill(255);
   textAlign(CENTER, CENTER);
-  text(serialController.read(), width / 2, height / 2);
+  // just if serial controller ready an there is data
+  if (serialController.read() && serialController.hasData()) {
+    text(serialController.read(), width / 2, height / 2);
+  }
 
 }
 

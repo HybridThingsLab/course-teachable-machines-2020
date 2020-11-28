@@ -80,6 +80,14 @@ class SerialController {
         return this.message;
     }
 
+    hasData() {
+        if (this.message != "") {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     async write(message) {
         if (this.writer) {
             //console.log(message);

@@ -70,14 +70,22 @@ class SerialController {
                 break;
             }
             // value is a string.
-            this.received_message = value;
+            this.message = value;
 
         }
 
     }
 
     read() {
-        return this.received_message;
+        return this.message;
+    }
+
+    hasData() {
+        if (this.message != "") {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     async write(message) {
