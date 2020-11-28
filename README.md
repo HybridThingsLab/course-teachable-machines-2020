@@ -7,7 +7,7 @@ course interaction design IA3 winter-term 2020/2021
 
 * [Block II (UNDERSTAND)](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_II)
 
-* Block III (PHYSICAL)
+* [Block III (PHYSICAL)](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III)
 
 ### Editor
 Download and install Visual Studio Code (free), https://code.visualstudio.com
