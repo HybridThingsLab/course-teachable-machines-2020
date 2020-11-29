@@ -66,7 +66,7 @@ live demo [04_serial_write_multipleValues](https://hybridthingslab.github.io/cou
 ![04_01](docs/04_p5js.jpg)|![04_02](docs/04_Arduino.jpg)
 
 ## 05 send mulitple values back and forth p5.js and Arduino
-live demo [01_serial_read_singleValue](https://hybridthingslab.github.io/course-teachable-machines/Block_III/p5js/05_serial_write_read_multipleValues)
+live demo [05_serial_write_read_multipleValues](https://hybridthingslab.github.io/course-teachable-machines/Block_III/p5js/05_serial_write_read_multipleValues)
 
 |[code p5.js](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/p5js/05_serial_write_read_multipleValues)|[code Arduino](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/Arduino/05_serial_write_read_multipleValues)|
 :-------------------------:|:-------------------------:
