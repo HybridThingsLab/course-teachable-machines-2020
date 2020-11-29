@@ -1,4 +1,4 @@
-# Let's Get Physcial
+# Let's Get Physical
 
 ## p5.js, Arduino and the Grove Starter Kit
 Learn how to sense and control things in your physical environment by connection an Arduino microcontroller to your Mac/PC, attach sensors and actuators and writing basic code to let all of them commmunicate.
@@ -33,7 +33,7 @@ The [Serial API](https://web.dev/serial/) provides a way for websites to read fr
 
 
 ### Funken - Serial protocol toolkit Library
-We use the amazing [Funken library](https://github.com/astefas/Funken) to send all kind of variables (also text, numbers...) and also multiple of them back and forth. Find furthere informations to install additional Arduino Libraries [here](https://www.arduino.cc/en/Guide/Libraries).
+We use the amazing [Funken library](https://github.com/astefas/Funken) to send all kind of variables (also text, numbers...) and also multiple of them back and forth. Find further informations to install additional Arduino Libraries [here](https://www.arduino.cc/en/Guide/Libraries).
 
 # Examples
 
