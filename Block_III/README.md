@@ -42,4 +42,4 @@ live demo [serial_read_singleValue](https://hybridthingslab.github.io/course-tea
 
 upload XYZ to your Arduino Board
 
-![read_singleValue](docs/01_p5js.jpg)![read_singleValue](docs/01_arduino.jpg)
+![read_singleValue](docs/01_p5js.jpg)![read_singleValue](docs/01_Arduino.jpg)
