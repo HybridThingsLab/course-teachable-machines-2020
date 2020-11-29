@@ -65,14 +65,14 @@ live demo [04_serial_write_multipleValues](https://hybridthingslab.github.io/cou
 :-------------------------:|:-------------------------:
 ![04_01](docs/04_p5js.jpg)|![04_02](docs/04_Arduino.jpg)
 
-## 05 send mulitple values back and forth p5.js and Arduino
+## 05 send multiple values back and forth p5.js and Arduino
 live demo [05_serial_write_read_multipleValues](https://hybridthingslab.github.io/course-teachable-machines/Block_III/p5js/05_serial_write_read_multipleValues)
 
 |[code p5.js](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/p5js/05_serial_write_read_multipleValues)|[code Arduino](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/Arduino/05_serial_write_read_multipleValues)|
 :-------------------------:|:-------------------------:
 ![05_01](docs/05_p5js.jpg)|![05_02](docs/05_Arduino.jpg)
 
-## 06 send mulitple messages from p5.js to Arduino / LCD screen
+## 06 send messages from p5.js to Arduino / LCD screen
 live demo [06_serial_write_to_LCD](https://hybridthingslab.github.io/course-teachable-machines/Block_III/p5js/06_serial_write_to_LCD)
 
 |[code p5.js](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/p5js/06_serial_write_to_LCD)|[code Arduino](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/Arduino/06_serial_read_to_LCD)|
