@@ -37,7 +37,7 @@ We use the amazing [Funken library](https://github.com/astefas/Funken) to send a
 
 # Examples
 
-## send a sensor value from Arduino to p5.js
+## 01 send a sensor value from Arduino to p5.js
 live demo [01_serial_read_singleValue](https://hybridthingslab.github.io/course-teachable-machines/Block_III/p5js/01_serial_read_singleValue)
 
 [p5.js Code](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/p5js/01_serial_read_singleValue) | 
@@ -47,7 +47,7 @@ live demo [01_serial_read_singleValue](https://hybridthingslab.github.io/course-
 
 ![01_02](docs/01_Arduino.jpg)
 
-## send a value from p5.js to Arduino
+## 02 send a value from p5.js to Arduino
 live demo [02_serial_write_singleValue](https://hybridthingslab.github.io/course-teachable-machines/Block_III/p5js/02_serial_write_singleValue)
 
 [p5.js Code](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/p5js/02_serial_write_singleValue) | 
@@ -57,7 +57,7 @@ live demo [02_serial_write_singleValue](https://hybridthingslab.github.io/course
 
 ![02_02](docs/02_Arduino.jpg)
 
-## send two sensor values from Arduino to p5.js
+## 03 send two sensor values from Arduino to p5.js
 live demo [03_serial_read_multipleValues](https://hybridthingslab.github.io/course-teachable-machines/Block_III/p5js/03_serial_read_multipleValues)
 
 [p5.js Code](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/p5js/03_serial_read_multipleValues) | 
@@ -67,7 +67,7 @@ live demo [03_serial_read_multipleValues](https://hybridthingslab.github.io/cour
 
 ![03_02](docs/03_Arduino.jpg)
 
-## send two values from p5.js to Arduino
+## 04 send two values from p5.js to Arduino
 live demo [04_serial_write_multipleValues](https://hybridthingslab.github.io/course-teachable-machines/Block_III/p5js/04_serial_write_multipleValues)
 
 [p5.js Code](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/p5js/04_serial_write_multipleValues) | 
@@ -77,7 +77,7 @@ live demo [04_serial_write_multipleValues](https://hybridthingslab.github.io/cou
 
 ![04_02](docs/04_Arduino.jpg)
 
-## send mulitple values back and forth p5.js and Arduino
+## 05 send mulitple values back and forth p5.js and Arduino
 live demo [01_serial_read_singleValue](https://hybridthingslab.github.io/course-teachable-machines/Block_III/p5js/05_serial_write_read_multipleValues)
 
 [p5.js Code](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/p5js/05_serial_write_read_multipleValues) | 
