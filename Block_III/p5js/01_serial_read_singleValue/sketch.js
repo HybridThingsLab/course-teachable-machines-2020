@@ -1,3 +1,6 @@
+// use Chrome Browser
+// enable the 'experimental-web-platform-features' flag opening 'chrome://flags'
+
 // serial magic happens here > "libraries/webserial.js" 
 // good documentation web serial API: https://web.dev/serial/
 
