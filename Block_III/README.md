@@ -40,12 +40,9 @@ We use the amazing [Funken library](https://github.com/astefas/Funken) to send a
 ## 01 send a sensor value from Arduino to p5.js
 live demo [01_serial_read_singleValue](https://hybridthingslab.github.io/course-teachable-machines/Block_III/p5js/01_serial_read_singleValue)
 
-[p5.js Code](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/p5js/01_serial_read_singleValue) | 
-[Arduino Code](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/Arduino/01_serial_write_singleValue)
-
-![01_01](docs/01_p5js.jpg)
-
-![01_02](docs/01_Arduino.jpg)
+|[p5.js Code](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/p5js/01_serial_read_singleValue)|[Arduino Code](https://github.com/HybridThingsLab/course-teachable-machines/tree/master/Block_III/Arduino/01_serial_write_singleValue)|
+:-------------------------:|:-------------------------:
+![01_01](docs/01_p5js.jpg)|![01_02](docs/01_Arduino.jpg)
 
 ## 02 send a value from p5.js to Arduino
 live demo [02_serial_write_singleValue](https://hybridthingslab.github.io/course-teachable-machines/Block_III/p5js/02_serial_write_singleValue)
