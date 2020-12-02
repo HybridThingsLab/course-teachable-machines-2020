@@ -21,7 +21,7 @@ Learn how to sense and control things in your physical environment by connection
 
 ### Attaching Modules to the Arduino
 * Carrefully attach the big Grove Base Shield, so that each metal pin goes into its hole
-* Set the votage selector on the switch right beside the A0 socket to "5V"
+* __Set the votage selector on the switch right beside the A0 socket to "5V"!!!__
 * Plug the green LED into the corresponding holes of the "LED Socket" module, the LED has a "flat" side that should point in the same direction as on the symbolic circle right below the holes
 * Attach the LED Socket module to Socket D3 of the Grove Base Shield
 * Attach the Rotary Angle Sensor in A0
