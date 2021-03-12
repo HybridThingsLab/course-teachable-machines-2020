@@ -23,7 +23,9 @@ int updateSerial = 10; // interval to send value via serial port
 void setup() {
   // initialize serial communications at 57600 bps:
   Serial.begin(57600);
-  // for analog input pin no initialization as an input needed !
+  
+  // define digital inputs
+  pinMode(digitalInPin,INPUT);
 }
 
 void loop() {
