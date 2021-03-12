@@ -1,5 +1,5 @@
 # ml5.js poseNet
-live demo [poseNet](https://hybridthingslab.github.io/course-teachable-machines/Block_II/01_poseNet/)
+live demo [poseNet](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/01_poseNet/)
 
 ![poseNet](docs/poseNet.jpg)
 
@@ -12,7 +12,7 @@ insights:
 * https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5
 
 # ml5.js handpose
-live demo [handpose](https://hybridthingslab.github.io/course-teachable-machines/Block_II/02_handpose/)
+live demo [handpose](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/02_handpose/)
 
 ![handpose](docs/handpose.jpg)
 
@@ -24,7 +24,7 @@ insights:
 * https://blog.tensorflow.org/2020/03/face-and-hand-tracking-in-browser-with-mediapipe-and-tensorflowjs.html
 
 # ml5.js facemesh
-live demo [facemesh](https://hybridthingslab.github.io/course-teachable-machines/Block_II/03_facemesh/)
+live demo [facemesh](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/03_facemesh/)
 
 ![facemesh](docs/facemesh.jpg)
 
@@ -40,27 +40,27 @@ nice explanation via Coding Train:
 * https://youtu.be/Mwo5_bUVhlA?t=170 
 
 ## KNN Classifier simple (position mouse x, y)
-live demo [KNN_classifier_simple](https://hybridthingslab.github.io/course-teachable-machines/Block_II/04_KNN_classifier_simple/)
+live demo [KNN_classifier_simple](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/04_KNN_classifier_simple/)
 
 ![KNN_simple](docs/KNN_simple.jpg)
 
 ## KNN Classifier poseNet
-live demo [KNN_classifier_poseNet](https://hybridthingslab.github.io/course-teachable-machines/Block_II/05_KNN_classifier_poseNet/)
+live demo [KNN_classifier_poseNet](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/05_KNN_classifier_poseNet/)
 
 ![KNN_poseNet](docs/KNN_poseNet.jpg)
 
 ## KNN Classifier handpose
-live demo [KNN_classifier_handpose](https://hybridthingslab.github.io/course-teachable-machines/Block_II/06_KNN_classifier_handpose)
+live demo [KNN_classifier_handpose](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/06_KNN_classifier_handpose)
 
 ![KNN_handpose](docs/KNN_handpose.jpg)
 
 ## KNN Classifier facemesh
-live demo [KNN_classifier_facemesh](https://hybridthingslab.github.io/course-teachable-machines/Block_II/07_KNN_classifier_facemesh/)
+live demo [KNN_classifier_facemesh](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/07_KNN_classifier_facemesh/)
 
 ![KNN_facemesh](docs/KNN_facemesh.jpg)
 
 ## KNN Classifier video
-live demo [KNN_classifier_video](https://hybridthingslab.github.io/course-teachable-machines/Block_II/08_KNN_classifier_video/)
+live demo [KNN_classifier_video](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/08_KNN_classifier_video/)
 
 ![KNN_video](docs/KNN_video.jpg)
 
@@ -82,7 +82,7 @@ reference:
 
 
 ## Neural Network Classifier simple (position mouse x, y)
-live demo [NeuralNetwork_classifier](https://hybridthingslab.github.io/course-teachable-machines/Block_II/10_NeuralNetwork_classifier_loadSave_simple/)
+live demo [NeuralNetwork_classifier](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/10_NeuralNetwork_classifier_loadSave_simple/)
 
 ![NN_classifier_simple](docs/NN_classifier_simple.jpg)
 
@@ -92,17 +92,17 @@ further tutorials via Coding train:
 * https://thecodingtrain.com/learning/ml5/6.3-save-model.html
 
 ## Neural Network Classifier poseNet
-live demo [NeuralNetwork_classifier_poseNet](https://hybridthingslab.github.io/course-teachable-machines/Block_II/11_NeuralNetwork_classifier_poseNet/)
+live demo [NeuralNetwork_classifier_poseNet](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/11_NeuralNetwork_classifier_poseNet/)
 
 ![NN_classifier_poseNet](docs/NN_classifier_poseNet.jpg)
 
 ## Neural Network Classifier handpose
-live demo [NeuralNetwork_classifier_handpose](https://hybridthingslab.github.io/course-teachable-machines/Block_II/12_NeuralNetwork_classifier_handpose/)
+live demo [NeuralNetwork_classifier_handpose](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/12_NeuralNetwork_classifier_handpose/)
 
 ![NN_classifier_handpose](docs/NN_classifier_handpose.jpg)
 
 ## Neural Network Regression simple (position mouse x, y, 3 sliders)
-live demo [NeuralNetwork_classifier](https://hybridthingslab.github.io/course-teachable-machines/Block_II/14_NeuralNetwork_regression_simple/)
+live demo [NeuralNetwork_classifier](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/14_NeuralNetwork_regression_simple/)
 
 ![NN_regression_simple](docs/NN_regression_simple.jpg)
 
@@ -110,7 +110,7 @@ further tutorial via Coding train:
 * https://thecodingtrain.com/learning/ml5/6.4-regression.html
 
 ## Neural Network Regression poseNet
-live demo [NeuralNetwork_classifier_poseNet](https://hybridthingslab.github.io/course-teachable-machines/Block_II/15_NeuralNetwork_regression_poseNet/)
+live demo [NeuralNetwork_classifier_poseNet](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/15_NeuralNetwork_regression_poseNet/)
 
 ![NN_regression_poseNet](docs/NN_regression_poseNet.jpg)
 
@@ -118,6 +118,6 @@ further tutorial via Coding train:
 * https://thecodingtrain.com/learning/ml5/7.3-pose-regression.html
 
 ## Neural Network Regression handpose
-live demo [NeuralNetwork_classifier_poseNet](https://hybridthingslab.github.io/course-teachable-machines/Block_II/16_NeuralNetwork_regression_handpose/)
+live demo [NeuralNetwork_classifier_poseNet](https://hybridthingslab.github.io/course-teachable-machines-2020/Block_II/16_NeuralNetwork_regression_handpose/)
 
 ![NN_regression_handpose](docs/NN_regression_handpose.jpg)
